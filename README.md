@@ -4,8 +4,6 @@ Hi,
 
 this is code accompanying a publication by Garten et al. “Contacting domains segregate a lipid transporter from a solute transporter in the malarial host-parasite interface”. Please feel encouraged to contact the authors with any question about the scripts.
 
-As license the Creative Commons Attribution 4.0 International License was chosen which is the same as the publication.
-
 The scripts in folder "projector" produce Mollweide projections (see https://en.wikipedia.org/wiki/Mollweide_projection) from 3d voxel data. Those projections can be analyzed with scripts in the folder analyze. Scripts found in the folder distance are made to perform distance measurements on segmented images. Scripts in the bootstrap folder perform a bootstrap analysis of membrane distance data. One image example for the projection is provided with the scripts. Data for the bootstrap can be found with the publication.
 
 The projection scripts are written for matlab 2018b with gpu acceleration. If the gpu package is not available to you, change the gpuarrays to regular arrays.
